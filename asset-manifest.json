@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/social-science-website/static/css/main.fa7ab146.css",
+    "main.js": "/social-science-website/static/js/main.7d327579.js",
+    "static/media/hero.jpg": "/social-science-website/static/media/hero.c576f97415097c4f0482.jpg",
+    "static/media/bell.png": "/social-science-website/static/media/bell.dc851b2958dd352db511.png",
+    "static/media/desjardins.png": "/social-science-website/static/media/desjardins.f1feef033435515fd5b7.png",
+    "static/media/videotron.png": "/social-science-website/static/media/videotron.a72deb35dac2f20a7852.png",
+    "index.html": "/social-science-website/index.html",
+    "main.fa7ab146.css.map": "/social-science-website/static/css/main.fa7ab146.css.map",
+    "main.7d327579.js.map": "/social-science-website/static/js/main.7d327579.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa7ab146.css",
+    "static/js/main.7d327579.js"
+  ]
+}

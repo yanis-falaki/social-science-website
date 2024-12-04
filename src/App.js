@@ -1,24 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Navbar from './components/navbar';
+import HeroSection from './components/HeroSection';
+import DonationForm from './components/DonationForm';
+import PartnerCarousel from './components/PartnerCarousel';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="App h-screen flex flex-col">
+        <Navbar/>
+        <div className='flex flex-1 relative'>
+          <HeroSection />
+          <div className='w-1/3 bg-gray-100 p-6'>
+            <DonationForm />
+          </div>
+        </div>
+      </div>
+      <PartnerCarousel/>
+      </>
   );
 }
 

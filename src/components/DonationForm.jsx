@@ -13,9 +13,9 @@ const DonationForm = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto p-6 rounded-lg shadow-lg bg-white">
+    <div className="w-full md:w-4/12 p-6 rounded-xl shadow-glow-mtl bg-white z-10 md:ml-auto mt-8 md:mt-0">
       <form onSubmit={handleSubmit} className="space-y-6">
-        <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">
+        <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-800 mb-8">
           Make a Donation
         </h2>
 
@@ -27,7 +27,7 @@ const DonationForm = () => {
             id="donationAmount"
             value={donationAmount}
             onChange={(e) => setDonationAmount(e.target.value)}
-            className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-200 focus:border-[#EF4136] transition-colors"
+            className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-200 focus:border-mtl transition-colors"
             required
           >
             <option value="">Select Amount</option>

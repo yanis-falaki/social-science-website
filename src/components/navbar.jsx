@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
+import logo from '../images/mtl-logo.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,14 +10,14 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-800 text-white sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav className="bg-black text-white sticky top-0 z-50">
+      <div className="max-w-7xl mx-20 ">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             {/* Logo */}
             <div className="flex-shrink-0">
-              <a href="/" className="text-xl font-bold">
-                Save the Homeless
+              <a href="/" className="flex items-center text-2xl font-bold uppercase">
+                City Innovators
               </a>
             </div>
             
